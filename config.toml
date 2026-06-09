@@ -1,9 +1,10 @@
 # Pterodactyl server identifier (from panel URL or API)
 server_id = "11842205"
 
-# Server type: "vanilla" or "plugin"
+# Server type: "vanilla", "plugin" or "unified"
 # - vanilla: dimensions are subdirectories (world/DIM-1, world/DIM1)
 # - plugin:  dimensions are separate folders (world, world_nether, world_the_end)
+# - unified:  dimensions are inside dimensions folders (world/dimensions/minecraft/overworld)
 server_type = "unified"
 
 # Base world folder name (e.g. "world", "survival", etc.)
